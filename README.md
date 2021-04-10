@@ -1,12 +1,12 @@
 # RandomPasswordGen
 
-## **Project Summary**⚡️
+## **Project Summary** ⚡️
 
 _As a developer, I was asked by employer to create a password generator that randomly generates a password that meet certain criteria that allows to create a strong password that provides greater security._
 
 __________________________________________________________________________________________________________________________________________________
 
-## **Tools Used**🛠️
+## **Tools Used** 🛠️
 
 * HTML
 * CSS
@@ -14,7 +14,7 @@ ________________________________________________________________________________
 
 ___________________________________________________________________________________________________________________________________________________
 
-## **Project Goals**📚
+## **Project Goals** 📚
 
 * Employee is presented with a series of prompts for password criteria.
 * Employee is prompted to choose between 8-128 characters for password length. If input is not vaild, they will be asked again to choose bewteen 8-128 characters.
@@ -23,26 +23,26 @@ ________________________________________________________________________________
 
 ___________________________________________________________________________________________________________________________________________________
 
-## **Website**
+## **Website** 📷
 
 *Screenshots of prompts.*
 
 ![Screenshot 1](images/screenshot1.png)
 ![Screenshot 2](images/screenshot2.png)
-![Screenshot 3](images/screenshot3.png)
-![Screenshot 4](images/screenshot4.png)
-![Screenshot 5](images/screenshot5.png)
-![Screenshot 6](images/screenshot6.png)
+![Screenshot 3](images/Screenshot3.png)
+![Screenshot 4](images/Screenshot4.png)
+![Screenshot 5](images/Screenshot5.png)
+![Screenshot 6](images/Screenshot6.png)
 
 ___________________________________________________________________________________________________________________________________________________
 
-## **Recourses**
+## **Recourses** 💡
 [ Javascrpit: W3sschools](https://www.w3schools.com/)
 
-[My Github: Live website](https://katherineyoguez.github.io/myportfolio/)
+[My Github: Live website](https://katherineyoguez.github.io/RandomPasswordGen/)
 
 ___________________________________________________________________________________________________________________________________________________
 
-### _Contact_
+### _Contact_ 📇
 
 Email: Katherinecarlotayoguez@gmail.com
