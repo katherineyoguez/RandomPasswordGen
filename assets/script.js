@@ -31,14 +31,14 @@ function generatePassword() {
         upperCaseCheck == false &&
         numericCheck == false &&
         specialCheck == false){
-          alert("We need you to check at least one of the following!")
+          alert("We need you to have at least one of the following!")
           lowerCaseCheck = confirm("Do you want to include lowercase characters?")
           upperCaseCheck = confirm("Do you want to include uppercase characters?")
           numericCheck = confirm("Do you want to include numeric characters?")
           specialCheck = confirm("Do you want to include special characters?")
   }
 
-  var randomPass = ""
+  // var randomPass = ""
   var selectedTypes = [];
 
   if(lowerCaseCheck == true){
@@ -54,16 +54,16 @@ function generatePassword() {
     selectedTypes = selectedTypes.concat(specialChar)
   }
 
-  console.log(selectedTypes)
+  // console.log(selectedTypes)
 
   for(i=0; i<passwordLenght; i++){
     var randomIndex = Math.floor(Math.random() * selectedTypes.length)
     // console.log(randomIndex)
     var randomChar = selectedTypes[randomIndex];
-    console.log(randomChar)
+    // console.log(randomChar)
   }
-
-  return "password"
+  
+  return ""
 }
 
 // Add event listener to generate button
