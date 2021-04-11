@@ -1,4 +1,4 @@
-// Assignment Code
+// var for certain password criteria
 var generateBtn = document.querySelector("#generate");
 var lowercaseChar = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"]
 var uppercaseChar = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"]
@@ -14,7 +14,7 @@ function writePassword() {
   passwordText.value = password;
 
 }
-
+// function for grenerating password and prompts.
 function generatePassword() {
   var passwordLenght = prompt("What is the length of the desired password? (8-128 characters only)");
 
@@ -38,7 +38,7 @@ function generatePassword() {
           specialCheck = confirm("Do you want to include special characters?")
   }
 
-  // var randomPass = ""
+  var randompass = ""
   var selectedTypes = [];
 
   if(lowerCaseCheck == true){
@@ -54,16 +54,16 @@ function generatePassword() {
     selectedTypes = selectedTypes.concat(specialChar)
   }
 
-  // console.log(selectedTypes)
+  console.log(selectedTypes)
 
   for(i=0; i<passwordLenght; i++){
     var randomIndex = Math.floor(Math.random() * selectedTypes.length)
-    // console.log(randomIndex)
+    console.log(randomIndex)
     var randomChar = selectedTypes[randomIndex];
-    // console.log(randomChar)
+    console.log(randomChar)
   }
   
-  return ""
+  return selectedTypes
 }
 
 // Add event listener to generate button
